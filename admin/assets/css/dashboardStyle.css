@@ -1,0 +1,66 @@
+#sidebar-wrapper {
+    background-color: #121212; /* Fondo oscuro */
+    border-right: 2px solid #a97d1d; /* Borde neón */
+}
+
+.list-group-item {
+    background-color: transparent;
+    color: #ffffff;
+    font-weight: bold;
+    transition: 0.3s;
+    border: none;
+}
+
+.list-group-item:hover {
+    background-color: #00ffcc; /* Efecto neón */
+    color: #000000;
+    box-shadow: 0 0 10px #00ffcc;
+}
+.tableborder1 {
+    background-color: #000000; /* Fondo negro */
+    color: #ffffff; /* Letras blancas */
+    border-collapse: separate;
+    border-spacing: 0 5px;
+}
+
+.table th {
+    background-color: #00ffcc; /* Fondo neón */
+    color: #000000;
+    text-align: center;
+    font-weight: bold;
+    border-radius: 10px;
+    padding: 10px;
+}
+
+.table td {
+    background-color: #222222;
+    color: #ffffff;
+    border: none;
+    text-align: center;
+    padding: 10px;
+}
+
+.table tr:hover td {
+    background-color: #00ffcc; /* Efecto hover */
+    color: #000000;
+    transition: 0.3s;
+}
+h2 {
+    font-size: 28px;
+    color: #ffffff;
+    text-shadow: 0 0 10px #00ffcc, 0 0 20px #00ffcc;
+}
+body {
+    background-color: #283747; /* Fondo oscuro */
+    /*color: #fff;  Texto blanco */
+    color: #a29ea3; /* Fondo azul neón */
+    box-shadow: 0 0 20px #a29ea3, 0 0 40px #a29ea3, 0 0 80px #a29ea3; /* Efecto de resplandor */
+    padding: 20px;
+    border-radius: 10px;
+}
+
+
+
+
+
+

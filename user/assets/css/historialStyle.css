@@ -1,0 +1,69 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+    background: #0c0c0c;
+    color: #333;
+}
+/* Encabezado */
+h2 {
+    color: #0075db;
+    margin-bottom: 20px;
+}
+/* Tabla de historial de préstamos */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    background: #070707;
+    margin-top: 20px;
+}
+table, th, td {
+    border: 1px solid #121111;
+}
+th, td {
+    padding: 12px;
+    text-align: left;
+}
+th {
+    background: #0f0f0f;
+}
+tr:hover {
+    background: #0a0a0a;
+}
+/* Mensaje cuando no hay datos */
+p {
+    font-size: 16px;
+}
+/* Estilo para las tablas */
+table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 20px 0;
+    font-size: 18px;
+    font-family: 'Arial', sans-serif;
+    background-color: #141414; /* Fondo oscuro para resaltar colores neón */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5); /* Sombra para la tabla */
+  }
+  
+  table th, table td {
+    border: 1px solid #00ffcc; /* Borde neón (verde menta) */
+    padding: 12px 15px;
+    text-align: center;
+    color: #ffffff; /* Texto blanco */
+  }
+  
+  table th {
+    background-color: #00ffcc; /* Cabecera en verde neón */
+    color: #141414; /* Texto oscuro en cabecera para contraste */
+  }
+  
+  table tr:nth-child(even) {
+    background-color: #1f1f1f; /* Color alterno para filas */
+  }
+  
+  table tr:hover {
+    background-color: #333333; /* Resaltar fila al pasar el mouse */
+    box-shadow: 0 0 10px #00ffcc; /* Efecto neón al hover */
+  }
+  

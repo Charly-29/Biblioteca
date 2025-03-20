@@ -1,0 +1,109 @@
+/* Estilos generales */
+body {
+    background-color: black;
+    color: aqua;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 20px;
+}
+
+/* Título de la página */
+h2 {
+    color: aqua;
+    font-size: 2.5rem;
+    text-align: center;
+    margin-bottom: 30px;
+    text-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
+}
+
+/* Formulario de renovación */
+form {
+    background-color: rgba(0, 0, 0, 0.8);
+    border: 2px solid aqua;
+    border-radius: 10px;
+    padding: 20px;
+    max-width: 500px;
+    margin: 0 auto;
+    box-shadow: 0px 0px 20px rgba(0, 255, 255, 0.7);
+}
+
+form label {
+    display: block;
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+    color: aqua;
+}
+
+form input[type="text"] {
+    background-color: transparent;
+    color: aqua;
+    border: 2px solid aqua;
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 1rem;
+    width: 100%;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 255, 255, 0.5);
+}
+
+form input[type="text"]::placeholder {
+    color: rgba(0, 255, 255, 0.5);
+}
+
+form button[type="submit"] {
+    background-color: #28a745;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    width: 100%;
+}
+
+form button[type="submit"]:hover {
+    background-color: #218838;
+}
+
+/* Botón de volver */
+a.btn {
+    display: block;
+    text-align: center;
+    background-color: #007bff;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1rem;
+    text-decoration: none;
+    margin: 20px auto;
+    max-width: 200px;
+    transition: background-color 0.3s ease;
+}
+
+a.btn:hover {
+    background-color: #0056b3;
+}
+
+/* Mensajes de retroalimentación */
+p.text-success {
+    color: #28a745 !important;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p.text-danger {
+    color: #dc3545 !important;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
+
+p.text-warning {
+    color: #ffc107 !important;
+    font-size: 1.2rem;
+    text-align: center;
+    margin-top: 20px;
+}
